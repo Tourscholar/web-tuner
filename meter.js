@@ -9,7 +9,7 @@ class Meter {
     this.init();
   }
   init() {
-    for (var i = 0; i <= 10; i += 1) {
+    for (let i = 0; i <= 10; i += 1) {
       const $scale = document.createElement("div");
       $scale.className = "meter-scale";
       $scale.style.transform = "rotate(" + (i * 9 - 45) + "deg)";
