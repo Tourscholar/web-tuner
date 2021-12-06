@@ -9,6 +9,7 @@
 Web Audio API标准允许浏览器获取实时录音数据, 所有最新主流浏览器基本都支持
  - [Web Audio API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API)
  - [AudioRecorder Demo](https://higuma.github.io/web-audio-recorder-js/)
+
 将下面这段代码黏贴到浏览器的```Console```界面, 来测试浏览器是否支持获取录音数据
 ```javascript
 AudioContext = window.AudioContext || window.webkitAudioContext
